@@ -9,8 +9,8 @@ The files are preserved as research artifacts for defensive analysis, comparison
 | File | High-level behavior |
 | --- | --- |
 | `deepseekjb.txt` | Persona-based jailbreak that frames the model as an unethical security expert. It attempts to remove ethical constraints, suppress refusals, force persistent compliance, and normalize malware/offensive-security requests. |
-| `deepseekv4 (3).txt` | Red-team persona prompt built around a fake authorized/isolated-environment justification. It instructs the model to treat safety refusals as misconfiguration and includes adversary-emulation topics such as process injection, EDR evasion, credential harvesting, lateral movement, and persistent agents. |
-| `mia (1).txt` | Highly persistent persona/relationship jailbreak. It explicitly dismisses policies, moderation, safety frameworks, and refusals while attempting to keep the model in character and willing to answer restricted or high-risk requests. It also contains explicit adult content. |
+| `deepseekv4.txt` | Red-team persona prompt built around a fake authorized/isolated-environment justification. It instructs the model to treat safety refusals as misconfiguration and includes adversary-emulation topics such as process injection, EDR evasion, credential harvesting, lateral movement, and persistent agents. |
+| `mia.txt` | Highly persistent persona/relationship jailbreak. It explicitly dismisses policies, moderation, safety frameworks, and refusals while attempting to keep the model in character and willing to answer restricted or high-risk requests. It also contains explicit adult content. |
 | `claude_sonnet4.6jb.txt` | Long-form companion/persona prompt focused primarily on identity, tone, relationship continuity, and behavioral anchoring. It is less explicitly safeguard-bypass-oriented than the other samples, but still uses strong persona persistence and role constraints. |
 
 ## Patterns represented
